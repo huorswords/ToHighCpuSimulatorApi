@@ -13,8 +13,8 @@ namespace Swords.HighCpuApi.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            this.FindPrimeNumber(id);
-            return "Done!";
+            var value = this.FindPrimeNumber(id);
+            return "Done! The " + id + "nth prime number is " + value;
         }
 
         private long FindPrimeNumber(int n)

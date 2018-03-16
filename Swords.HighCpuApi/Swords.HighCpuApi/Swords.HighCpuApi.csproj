@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Properties\PublishProfiles\high-cpu-demo-swords - FTP.pubxml" />
+    <None Remove="Properties\PublishProfiles\high-cpu-demo-swords - Web Deploy.pubxml" />
     <None Remove="Properties\PublishProfiles\too-much-cpu - FTP.pubxml" />
     <None Remove="Properties\PublishProfiles\too-much-cpu - Web Deploy.pubxml" />
   </ItemGroup>
